@@ -1,0 +1,163 @@
+ .kotak1 img {
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.kotak1 {
+  background-color: none;
+  float: left;
+  justify-content: space-around;
+  margin: 8px auto;
+  width: 236px;
+}
+
+/* slider */
+.slider, .slider2, .slider3, slider4{
+  position: relative;
+  width: 1275px;
+  min-height: 500px;
+  /* margin: 20px; */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slider .slide img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider2 .slide2 img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider3 .slide3 img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider4 .slide4 img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Slideshow container */ 
+.slide, .slide2, .slide3, .slide4 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slider, .slider2, .slider3, .slider4{
+max-width: 1275px;
+height: 400px;
+margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 30%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: black;
+background-color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+justify-content: space-between;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+background-color: #f1f1f1;
+color: black;
+}
+
+.slider, .slider2, .slider3, .slider4{
+width: 1275px;
+height: 400px;
+}
+
+.slider .slide, .slider2 .slide2, .slider3 .slide3, .slider4 .slide4{
+color: black;
+margin-top: 50px;
+padding-top: 10px;
+display: flex;
+float: left;
+}
+
+.slider .slide .kotak1 img {
+height: 190px;
+width: 190px;
+position: absolute;
+object-fit: cover;
+}
+
+.slider2 .slide2 .kotak1 img {
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  object-fit: cover;
+  }
+
+.slider3 .slide3 .kotak1 img {
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  object-fit: cover;
+  }
+
+.slider4 .slide4 .kotak1 img {
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  object-fit: cover;
+  }
+
+.kotak1 {
+background-color: none;
+float: left;
+justify-content: space-around;
+margin: 5px auto;
+width: 236px;
+}
+
+.slider .slide .kotak1 p, .slider2 .slide2 .kotak1 p, .slider3 .slide3 p, .slider4 .slide4 p {
+position: relative;
+display: flex;
+z-index: 999999;
+top: 190px;
+color: white;
+}
+
+.slider, .slider2, .slider3, .slider4 {
+position: relative;
+width: 1275px;
+
+}
+
+.slider .slide, .slider2 .slide2, .slider3 .slide3, .slider4 .slide4 {
+position: absolute;
+width: 100%;
+display: flex;
+}
+
