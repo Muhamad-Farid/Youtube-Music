@@ -1,0 +1,266 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS Reset meyerweb  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    line-height: 1.65;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.frame {
+    background-color: black;
+    width: 1300px;
+    position: relative;
+    margin: auto;
+}
+
+.layout {
+    background-color: black;
+    margin: auto;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    justify-content: space-between;
+    /* padding: 20px 0; */
+    height: 50px;
+    color: rgb(255, 254, 251);
+    align-items: center;
+    /* opacity: 50%; */
+}
+
+nav .logo {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+    display: flex;
+}
+
+nav .logo img {
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: rgb(255, 235, 175);
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav ul li a img {
+    height: 12px;
+    width: 12px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 244, 211);
+
+}
+
+nav .sisi-kanan .customize a:link{
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-right: 5px;
+}
+
+nav .sisi-kanan .customize p {
+    background-color: red;
+    border-radius: 5px;
+}
+
+nav .sisi-kanan .customize .lingkaran {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    float: right;
+}
+
+/* Theme */
+.container-theme .theme {
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    float: left;
+}
+
+.container-theme .theme h4 {
+    float: left;
+}
+
+.container-theme .theme h5 {
+    float: right;
+}
+
+.container-theme .theme .kotak {
+    background-color: none;
+    float: left;
+    justify-content: space-around;
+    margin: 5px auto;
+    height: 195px;
+    width: 345px;
+    margin-right: 20px;
+    margin-top: 35px;
+}
+
+.container-theme .theme .kotak p {
+    float: left;
+}
+
+.container-theme .theme .kotak .checkbox {
+    float: right;
+}
+
+.container-theme .theme .kotak .kotak1, .container-theme .theme .kotak .kotak2, .container-theme .theme .kotak .kotak3 {
+    height: 195px;
+    width: 345px;
+    margin-right: 25px auto;
+}
+
+.container-theme .theme .kotak .kotak1 {
+    /* width: 150px;
+    height: 150px; */
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    margin: 2px;
+}
+
+.container-theme .theme .kotak .kotak2 {
+    background-color: yellow;
+    /* width: 150px;
+    height: 150px; */
+}
+
+.container-theme .theme .kotak .kotak3 {
+    background-color: aqua;
+    /* width: 150px;
+    height: 150px; */
+}
+/* Theme */
+
+
+/* Walpaper */
+.container-walpaper .walpaper {
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    float: left;
+}
+
+.container-walpaper .walpaper .kotak img {
+    height: 180px;
+    width: 180px;
+}
+
+.container-walpaper .walpaper .kotak {
+    background-color: none;
+    float: left;
+    justify-content: space-around;
+    margin: 5px auto;
+    width: 236px;
+}
+/* Walpaper */
+
+
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }
+ 
+ /**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+ .cf {
+     *zoom: 1;
+ }
